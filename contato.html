@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Contato - LUCAS TECS</title>
+</head>
+
+<body>
+  <header id="topo">
+    <div class="banner">
+      <h1>LUCAS TECS</h1>
+      <img id="img_banner" src="computador.webp">
+    </div>
+    <div class="menu_de_navegacao">
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="index.html">ÍNICIO</a></li>
+          <li><a href="servico_e_precos.html">SERVIÇOS E PREÇOS</a></li>
+          <li><a href="endereco.html">ENDEREÇO</a></li>
+          <li><a href="contato.html"><b><u>CONTATO</u></b></a></li>
+          <li><a href="">SOBRE MIM</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </div>
+  </header>
+  <main id="topo">
+    <div class="caixa_contato">
+      <div class="formulario">
+        <form>
+          <legend>Enivie uma mensagem para mim preenchendo o formulário abaixo!</legend>
+          <br>
+          <label for="nome">Nome:</label>
+          <input class="input-padrao" type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+
+          <label for="email">E-mail:</label>
+          <input class="input-padrao" type="email" id="email" name="email" placeholder="seuemail@dominio.com" required>
+
+          <label for="telefone">Telefone:</label>
+          <input class="input-padrao" type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+          <label for="redes_sociais">Redes sociais:</label>
+          <input class="input-padrao" type="text" id="redes_sociais" name="redes_sociais"
+            placeholder="Instragram ou Facebook">
+
+          <label for=" mensagem">Mensagem:</label>
+          <textarea class="input-padrao" cols="50" rows="4" id="mensagem" name="mensagem"
+            placeholder="Insira aqui sua mensagem..." required"></textarea>
+          <fieldset>
+            <legend>Prefere que eu te responda por onde?</legend>
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                checked>Whatsapp</label>
+
+            <label for="radio-telegram"><input type="radio" name="contato" value="telegram"
+                id="radio-telegram">Telegram</label>
+
+            <label for="radio-instagram"><input type="radio" name="contato" value="instagram"
+                id="radio-instagram">Instagram</label>
+
+            <label for="radio-facebook"><input type="radio" name="contato" value="facebook"
+                id="radio-facebook">Facebook</label>
+
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                id="radio-email">Telefone</label>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+              <option>Manhã</option>
+              <option>Tarde</option>
+              <option>Noite</option>
+            </select>
+          </fieldset>
+          <label><input class="checkbox" type="checkbox">Gostaria de receber nossos serviços ou promoções no seu
+            e-mail?</label>
+          <input type="submit" value="Enviar!" class="enviar"></input>
+        </form>
+      </div>
+      <div class="informacoes_contato">
+        <h1>Contato📞</h1>
+        <p>Fale com a Lucas Tecs e tire suas dúvidas, agende um atendimento ou peça um orçamento!</p>
+        <h3>📱 WhatsApp:</h3>
+        <p>(34) 99643-7012</p>
+        <h3>📧 E-mail:</h3>
+        <p>lucasyagoo18@gmail.com</p>
+        <h3>📷 Redes sociais:</h3>
+        <p>Instagram: @luquinha_yago</p>
+        <h3>Prefere que eu te responda por onde? Me manda uma mensagem no formulário ao lado e escolha o canal que for
+          melhor pra você!</h3>
+        <div class="redes_sociais_dentro_contato">
+          <h4>Quer ir direto falar comigo? Clique no icone do app que preferir abaixo e entre em contato comigo!</h4>
+          <div class="redes_sociais">
+            <a href="https://wa.me/5534996437012?text=Olá%20Lucas%20!%20Gostaria%20de%20fazer%20um%20orçamento.
+            " target="_blank"> <img src="img_redes_sociais/whatsapp-branco.png"></a>
+            <a href="https://instagram.com/lucasyago_santos/
+            " target="_blank"> <img src="img_redes_sociais/instagram-branco.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=61562410598359" target="_blank"> <img
+                src="img_redes_sociais/facebook-branco.png"></a>
+            <a href="https://www.linkedin.com/in/lucas-yago-dos-santos-paula-9594b22a2/" target="_blank"> <img
+                src="img_redes_sociais/linkedin-colorido.png"></a>
+            <a href="https://t.me/lucasyagoo" target="_blank"> <img src="img_redes_sociais/telegram-branco.png"></a>
+            <br>
+          </div>
+          <br>
+          <h5>Caso algum não funcione me avise!</h5>
+        </div>
+        <img id="img_formulario" src="img_formulario/formulario.png">
+      </div>
+    </div>
+    <br>
+  </main>
+  <footer>
+    <hr>
+    <div class="footer_do_site">
+      <img id="imagem_footer" src="logo_lucas_tecs_footer.webp">
+      <div class="informacoes_footer">
+        <h3>Lucas Tecs</h3>
+        <p>Soluções em informática com qualidade, rapidez e preço justo.</p>
+        <p>&copy; 2025 Lucas Tecs. Todos os direitos reservados.</p>
+        <p>WhatsApp: (34) 99643-7012 | Email: lucasyagoo1807@gmail.com</p>
+        <p>Uberaba - MG</p>
+        <p id="desenvolvedor">Desenvolvido por Lucas Yago.</p>
+      </div>
+      <div class="redes_sociais">
+        <h3>Redes Sociais</h3>
+        <a href="https://wa.me/5534996437012?text=Olá%20Lucas%20!%20Gostaria%20de%20fazer%20um%20orçamento.
+    " target="_blank"> <img src="img_redes_sociais/whatsapp-branco.png"></a>
+        <a href="https://instagram.com/lucasyago_santos/
+    " target="_blank"> <img src="img_redes_sociais/instagram-branco.png"></a>
+        <a href="https://www.facebook.com/profile.php?id=61562410598359" target="_blank"> <img
+            src="img_redes_sociais/facebook-branco.png"></a>
+        <a href="https://www.linkedin.com/in/lucas-yago-dos-santos-paula-9594b22a2/" target="_blank"> <img
+            src="img_redes_sociais/linkedin-colorido.png"></a>
+        <a href="https://t.me/lucasyagoo" target="_blank"> <img src="img_redes_sociais/telegram-branco.png"></a>
+        <br>
+        <br>
+        <a href="#topo">Vá para o topo.</a>
+      </div>
+    </div>
+    <hr>
+  </footer>
+</body>
+
+</html>

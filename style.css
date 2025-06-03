@@ -1,0 +1,506 @@
+/*CSS PARA BANNER/MENU DE NAVEGAÇÃO*/
+header {
+	padding: 20px 0;
+}
+
+.banner {
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+.banner h1 {
+	text-align: right;
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	width: 50%;
+	margin-right: 10%;
+}
+
+#img_banner {
+	height: 175px;
+	vertical-align: middle;
+}
+
+.menu_de_navegacao {
+	background-color: white;
+	color: black;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.menu_de_navegacao hr {
+	border-color: black;
+	height: 1px;
+}
+
+nav {
+	top: 940px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 50px;
+}
+
+nav a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 1s all;
+}
+
+nav a:hover {
+	color: #303030;
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+/*CSS PARA FOOTER (FINAL DA PÁGINA)*/
+.footer_do_site {
+	background-color: #121212;
+	color: white;
+	padding: 10px 0;
+}
+
+#imagem_footer {
+	width: 200px;
+	vertical-align: middle;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.informacoes_footer {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	margin-right: 20px;
+
+	h3 {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	#desenvolvedor {
+		text-align: center;
+	}
+}
+
+.redes_sociais {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	text-align: left;
+
+	h3 {
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	img {
+		width: 60px;
+	}
+
+	a {
+		color: white;
+		text-align: center;
+	}
+}
+
+
+/*CSS PADRÃO PARA TODAS AS PÁGINAS*/
+body {
+	background-color: black;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+/*CSS PARA placeholder e Textearea herdar a fonte */
+input::placeholder,
+textarea::placeholder,
+select {
+	font-family: "Montserrat", sans-serif;
+	color: #696969;
+}
+
+/*CSS PARA INDEX*/
+
+.inicio {
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+
+.inicio h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+.inicio p {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.inicio ul {
+	list-style: none;
+	padding: 0;
+}
+
+.inicio ul li {
+	margin: 5px 0;
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #ffffff;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.7s;
+	font-size: 20px;
+}
+
+.btn:hover {
+	background-color: #454545;
+	color: white
+}
+
+.destaques {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.box {
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 10px;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.box p {
+	display: inline-block;
+	font-size: 22px;
+	margin: 10px 10px;
+}
+
+.box img {
+	float: left;
+	width: 50px;
+}
+
+.depoimento {
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+.depoimento p {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.depoimento img {
+	width: 150px;
+	margin-top: 10px;
+}
+
+
+/*CSS PARA SERVIÇOS E PREÇOS*/
+
+.servicos_e_precos {
+	h2 {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	p {
+		font-size: 27px
+	}
+}
+
+.estilo_servicos {
+	h2 {
+		text-align: center;
+	}
+}
+
+.servico-container {
+	text-align: left;
+}
+
+#caixa_branca {
+	/*VIRAR CADA UM BLOCO*/
+	display: inline-block;
+	vertical-align: top;
+	width: 460px;
+	height: 280px;
+	box-sizing: border-box;
+	text-align: center;
+	/*FIM*/
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	margin: 15px;
+	padding: 10px;
+
+
+	p {
+		font-size: 18px;
+		margin-left: 18px;
+		padding: 0;
+	}
+
+	h3 {
+		font-size: 20px;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	i {
+		color: green;
+		text-decoration: none;
+	}
+
+	b {
+		color: cadetblue;
+		text-decoration: none;
+	}
+
+	transition: 1s all;
+}
+
+#caixa_branca:hover {
+	background-color: #4f4f4f;
+	transform: scale(1.10);
+}
+
+.imagens_icone {
+	width: 90px;
+	float: center;
+}
+
+.incentivar_compra {
+	h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	p {
+		font-size: 23px;
+	}
+
+	a {
+		color: white;
+	}
+
+	#whatz {
+		color: #40c057;
+
+	}
+}
+
+.observacao {
+	h3 {
+		font-size: 27px;
+	}
+
+	li {
+		font-size: 21px;
+		margin-left: 5px;
+		padding: 0;
+		list-style-type: square;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+/*CSS PARA ENDEREÇO*/
+.endereco-cotainer {
+	text-align: center;
+}
+
+.endereco_maps,
+.informacoes_endereco {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;
+}
+
+.endereco_maps {
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#mapa {
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+}
+
+.informacoes_endereco {
+	h2 {
+		font-size: 30px;
+		text-align: center;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	img {
+		vertical-align: middle;
+		width: 150px;
+		display: inline-block;
+	}
+
+	p {
+		font-size: 20px;
+		text-align: left;
+	}
+
+	a {
+		color: #dddada;
+	}
+}
+
+/*CSS PARA CONTATO*/
+
+.caixa_contato {
+	text-align: left;
+}
+
+.formulario,
+.informacoes_contato {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.formulario {
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+form {
+	margin: 40px 20px;
+}
+
+form label,
+form legend {
+	display: block;
+	text-align: left;
+	font-size: 23px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 90%;
+	border: 3px #121212 solid;
+	border-radius: 10px;
+	outline: none;
+	transition: box-shadow 0.3s ease;
+}
+
+.input-padrao:focus {
+	border-color: #3d3d3d;
+	transform: scale(1.05);
+	font-size: 21px;
+}
+
+input[type="radio"] {
+	accent-color: #363636;
+	/* Muda a cor da bolinha (moderno) */
+}
+
+.checkbox {
+	margin: 30px 5px;
+	accent-color: #363636;
+}
+
+select {
+	margin: 10px 0;
+	padding: 10px 20px;
+	width: 30%;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: white;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 1s all;
+	margin: 0 auto;
+	font-family: "Montserrat", sans-serif;
+}
+
+.enviar:hover {
+	background: #4a4a4a;
+	transform: scale(1.05);
+}
+
+.informacoes_contato {
+	text-align: center;
+	margin: 0px 40px;
+
+	h3 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+}
+
+.redes_sociais_dentro_contato {
+	border: solid 2px white;
+	border-radius: 20px;
+
+	h4 {
+		font-size: 20px;
+	}
+
+}
+
+#img_formulario {
+	width: 400px;
+	margin: 60px 0px 0px 0px;
+}
